@@ -8,29 +8,45 @@
 </head>
 
 <body>
-<header>
-<div>
-    <img src="" alt="">
-    <span>
-        <h1>Bodyshape</h1>
-        <p>Unleash your inner athlete</p>
-    </span>
-    <img src="" alt="">
-</div>
-<div>
-    <p></p>
-    <p></p>
-    <p></p>
-    <p></p>
-    <button></button>
-</div>
-</header>
-<main>
+    <header class="flex flex-col items-center lg:flex-row lg:justify-between text-white bg-black p-2">
+        <div class="flex items-center">
+            <img src="../Images/logo_left.png" alt="">
+            <span class="text-orange-500">
+                <h1 class="text-center text-4xl">Bodyshape</h1>
+                <p>Unleash your inner athlete</p>
+            </span>
+            <img src="../Images/logo_right.png" alt="">
+        </div>
+        <div class="lg:flex lg:items-center gap-5 lg:pt-0 pt-5 text-center">
+            <p>Home</p>
+            <p>Services</p>
+            <p>About</p>
+            <p>Contacts</p>
+            <button class="lg:mt-0 mt-3 w-[71px] h-[36px] bg-gradient-to-r from-orange-500 to-orange-300">Join
+                Us</button>
+        </div>
+    </header>
+    <main class="text-white">
+        <section class="h-screen bg-[url('../Images/banner.png')] bg-cover bg-center">
+            <br><br><br>
+            <div
+                class="w-[400px] lg:w-[531px] h-[400px] flex flex-col justify-center items-center bg-gradient-to-t from-black to-zinc-900">
+                <h1 class="text-6xl lg:text-7xl lg:font-semibold">Transform <br> Your Body</h1>
+                <br>
+                <p class="text-slate-400">We are dedicated to helping you transform your <br>
+                    body and mind through the power of fitness.</p>
+                <div class="lg:mt-16 mt-5">
+                    <button
+                        class="me-3 lg:mt-0 mt-3 w-[136px] h-[44px] bg-gradient-to-r from-orange-500 to-orange-300">Get
+                        Started</button>
+                    <button class="lg:mt-0 mt-3 w-[174px] h-[44px] border-2 border-orange-500">Watch Reviews</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
 
-</main>
-<footer>
-
-</footer>
+    </footer>
 </body>
 
 </html>
