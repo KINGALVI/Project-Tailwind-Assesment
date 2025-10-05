@@ -4,11 +4,18 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
-<body>
+<body class="arimo-body">
+
     <header class="flex flex-col items-center lg:flex-row lg:justify-between text-white bg-black p-2">
+
         <div class="flex items-center">
             <img src="../Images/logo_left.png" alt="">
             <span class="text-orange-500">
@@ -17,36 +24,67 @@
             </span>
             <img src="../Images/logo_right.png" alt="">
         </div>
+
         <div class="lg:flex lg:items-center gap-5 lg:pt-0 pt-5 text-center">
             <p>Home</p>
             <p>Services</p>
             <p>About</p>
             <p>Contacts</p>
-            <button class="lg:mt-0 mt-3 w-[71px] h-[36px] bg-gradient-to-r from-orange-500 to-orange-300">Join
+            <button class="lg:mt-0 mt-3 w-[71px] h-[36px] bg-gradient-to-r from-[#F66844] to-[#FF921B]">Join
                 Us</button>
         </div>
+
     </header>
-    <main class="text-white">
+
+    <main class="text-white bg-black">
+
         <section class="h-screen bg-[url('../Images/banner.png')] bg-cover bg-center">
             <br><br><br>
             <div
-                class="w-[400px] lg:w-[531px] h-[400px] flex flex-col justify-center items-center bg-gradient-to-t from-black to-zinc-900">
+                class="w-[350px] lg:w-[531px] h-[400px] flex flex-col justify-center items-center bg-gradient-to-t from-black to-zinc-900">
                 <h1 class="text-6xl lg:text-7xl lg:font-semibold">Transform <br> Your Body</h1>
                 <br>
                 <p class="text-slate-400">We are dedicated to helping you transform your <br>
                     body and mind through the power of fitness.</p>
                 <div class="lg:mt-16 mt-5">
                     <button
-                        class="me-3 lg:mt-0 mt-3 w-[136px] h-[44px] bg-gradient-to-r from-orange-500 to-orange-300">Get
+                        class="me-3 lg:mt-0 mt-3 w-[136px] h-[44px] bg-gradient-to-r from-[#F66844] to-[#FF921B]">Get
                         Started</button>
                     <button class="lg:mt-0 mt-3 w-[174px] h-[44px] border-2 border-orange-500">Watch Reviews</button>
                 </div>
             </div>
+
+            <div
+                class="mt-24 relative flex items-center justify-around w-[245px] h-[60px] bg-gradient-to-r from-[#F66844] to-[#FF921B] text-white px-6 ">
+                <img src="/path/google.svg" alt="Google" class="h-8 w-8" />
+                <img src="/path/facebook.svg" alt="Facebook" class="h-8 w-8" />
+                <img src="/path/youtube.svg" alt="YouTube" class="h-8 w-8" />
+
+                <div
+                    class="absolute right-[-30px] top-[20px] transform translate-x-1 rotate-[300deg] w-[75px] h-[41px] bg-black">
+                </div>
+            </div>
+
         </section>
+
+        <section class="h-screen bg-[url('../Images/roated_banner.png')] bg-cover bg-center">
+            <h1 class="text-6xl">Fitness Plans & <span class="text-orange-500">Nutritions</span></h1>
+            <div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </section>
+
     </main>
+
     <footer>
 
     </footer>
+
 </body>
 
 </html>
