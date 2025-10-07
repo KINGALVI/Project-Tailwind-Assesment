@@ -13,4 +13,4 @@ A sleek, responsive fitness-themed landing page built to showcase subscription p
 
 - **Responsive Visibility Logic**: Ensuring mobile-first breakpoints behaved consistently across sections, especially with custom layouts like the trainer grid and tag system.
 - **Custom Styling with Tailwind**: Implementing 2-color gradients and styled list markers required creative workarounds using Tailwind’s configuration and utility classes.
-- **Semantic Structure vs. Visual Design**: Balancing clean markup with visually rich components like subscription cards and tag grids while maintaining accessibility and scalability.
+- **Semantic Structure vs. Visual Design**: Balancing clean markup with visually rich components like grid section and footer popular tag grids while maintaining accessibility and scalability.
