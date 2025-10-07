@@ -6,8 +6,8 @@ A sleek, responsive fitness-themed landing page built to showcase subscription p
 
 - **HTML5** – Semantic structure and layout
 - **Tailwind CSS** – Utility-first styling with responsive design
-- **Git** – Version control and commit tracking
-- **VS Code** – Development environment
+- **Git** – Code control and commit tracking
+- **Font Awesome** – Used 3 social media icons
 
 ## 🧠 Challenges Faced
 
