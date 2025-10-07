@@ -11,10 +11,12 @@
     <link rel="stylesheet" href="../CSS/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Bodyshape</title>
 </head>
 
-<body class="arimo-body">
+<body class="arimo-body bg-black ">
 
+    <!-- Navbar Section -->
     <header class="flex flex-col items-center lg:flex-row lg:justify-between text-white bg-black p-2">
 
         <div class="flex items-center">
@@ -37,10 +39,13 @@
 
     </header>
 
-    <main class="text-white bg-black">
+    <main class="text-white lg:ms-10 lg:me-10">
 
         <section class="h-screen bg-[url('../Images/banner.png')] bg-cover bg-center">
+
             <br><br><br>
+
+            <!-- About Bodyshape Detail Section -->
             <div
                 class="w-[350px] lg:w-[531px] h-[400px] flex flex-col justify-center items-center bg-gradient-to-t from-black to-zinc-900 md:mx-auto lg:m-0">
                 <h1 class="text-6xl lg:text-7xl lg:font-semibold">Transform <br> Your Body</h1>
@@ -55,6 +60,7 @@
                 </div>
             </div>
 
+            <!-- Social Media Link Section  -->
             <div
                 class="mt-16 relative flex items-center justify-around w-[245px] h-[60px] bg-gradient-to-r from-[#F66844] to-[#FF921B] text-white px-6 ">
                 <i class="fab fa-google text-3xl"></i>
@@ -68,6 +74,7 @@
 
         </section>
 
+        <!-- Grid Section -->
         <section class="lg:h-screen bg-[url('../Images/roated_banner.png')] bg-cover bg-center">
 
             <h1 class="text-6xl">Fitness Plans & <span class="text-orange-500">Nutritions</span></h1>
@@ -123,7 +130,8 @@
                     </div>
 
                     <div class="border-l-4 border-orange-500 p-4 flex flex-col items-center text-center">
-                        <img src="../Images/runer-silhouette-running-fast.png" alt="Fitness Running Icon" class="h-12 mb-4" />
+                        <img src="../Images/runer-silhouette-running-fast.png" alt="Fitness Running Icon"
+                            class="h-12 mb-4" />
                         <h2 class="text-xl font-bold mb-2">Fitness Running</h2>
                         <p class="text-sm text-slate-300">
                             Running is a method of terrestrial locomotion allowing humans and other animals to move
@@ -185,7 +193,8 @@
                     </div>
 
                     <div class="border-l-4 border-orange-500 p-4 flex flex-col items-center text-center">
-                        <img src="../Images/runer-silhouette-running-fast.png" alt="Fitness Running Icon" class="h-12 mb-4" />
+                        <img src="../Images/runer-silhouette-running-fast.png" alt="Fitness Running Icon"
+                            class="h-12 mb-4" />
                         <h2 class="text-xl font-bold mb-2">Fitness Running</h2>
                         <p class="text-sm text-slate-300">
                             Running is a method of terrestrial locomotion allowing humans and other animals to move
@@ -247,7 +256,8 @@
                     </div>
 
                     <div class="border-4 border-orange-500 p-4 flex flex-col items-center text-center">
-                        <img src="../Images/runer-silhouette-running-fast.png" alt="Fitness Running Icon" class="h-12 mb-4" />
+                        <img src="../Images/runer-silhouette-running-fast.png" alt="Fitness Running Icon"
+                            class="h-12 mb-4" />
                         <h2 class="text-xl font-bold mb-2">Fitness Running</h2>
                         <p class="text-sm text-slate-300">
                             Running is a method of terrestrial locomotion allowing humans and other animals to move
@@ -258,6 +268,62 @@
                 </div>
             </div>
 
+        </section>
+
+        <!-- Our Crouse Section  -->
+        <section class="bg-black text-white py-12 px-4">
+            <h2 class="text-4xl font-bold mb-10">
+                Subscribe To <span class="text-orange-500">Plans</span>
+            </h2>
+
+            <div class="grid justify-center">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl">
+
+                    <!-- Plan 1 -->
+                    <div
+                        class="lg:mt-10 bg-gradient-to-t from-black to-zinc-900 p-6 rounded-lg flex flex-col items-center text-center h-[342px] w-[278px]">
+                        <h3 class="text-2xl font-bold mb-2">Fit</h3>
+                        <p class="text-sm text-gray-400 mb-4">Plan Exp. 16/11/2024</p>
+                        <p class="text-3xl font-bold mb-2">₹1200 <span class="text-base font-normal">/Month</span></p>
+                        <p class="text-sm mb-6">Streaming</p>
+                        <button
+                            class="border border-orange-500 text-white px-4 py-2 rounded hover:bg-orange-500 transition">
+                            Select Plan
+                        </button>
+                    </div>
+
+                    <!-- Plan 2 (Recommended) -->
+                    <div
+                        class="bg-gradient-to-t from-black to-zinc-900 p-6 rounded-lg flex flex-col items-center text-center relative h-[342px] w-[278px]">
+                        <div
+                            class="flex justify-center items-center absolute top-[-20px] bg-white text-black text-xs font-bold px-2 py-1 rounded-br h-[36px] w-[141px]">
+                            Recommended
+                        </div>
+                        <h3 class="text-2xl font-bold mb-2 mt-6">Fit</h3>
+                        <p class="text-sm text-gray-400 mb-4">Plan Exp. 16/11/2024</p>
+                        <p class="text-3xl font-bold mb-2">₹1000 <span class="text-base font-normal">/Month</span></p>
+                        <p class="text-sm mb-6">Streaming</p>
+                        <button
+                            class="border border-orange-500 text-white px-4 py-2 rounded hover:bg-orange-500 transition">
+                            Select Plan
+                        </button>
+                    </div>
+
+                    <!-- Plan 3 -->
+                    <div
+                        class="mt-10 bg-gradient-to-t from-black to-zinc-900 p-6 rounded-lg flex flex-col items-center text-center h-[342px] w-[278px]">
+                        <h3 class="text-2xl font-bold mb-2">Fit</h3>
+                        <p class="text-sm text-gray-400 mb-4">Plan Exp. 16/11/2024</p>
+                        <p class="text-3xl font-bold mb-2">₹1500 <span class="text-base font-normal">/Month</span></p>
+                        <p class="text-sm mb-6">Streaming</p>
+                        <button
+                            class="border border-orange-500 text-white px-4 py-2 rounded hover:bg-orange-500 transition">
+                            Select Plan
+                        </button>
+                    </div>
+
+                </div>
+            </div>
         </section>
 
     </main>
