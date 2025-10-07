@@ -14,11 +14,12 @@
     <title>Bodyshape</title>
 </head>
 
-<body class="arimo-body bg-black ">
+<body class="bg-black ">
 
-    <!-- Navbar Section -->
+    <!-- Header Section -->
     <header class="flex flex-col items-center lg:flex-row lg:justify-between text-white bg-black p-2">
 
+        <!-- Navbar Section -->
         <div class="flex items-center">
             <img src="../Images/logo_left.png" alt="">
             <span class="text-orange-500">
@@ -39,24 +40,28 @@
 
     </header>
 
+    <!-- Main Section  -->
     <main class="text-white lg:ms-10 lg:me-10">
 
         <section class="h-screen bg-[url('../Images/banner.png')] bg-cover bg-center">
 
-            <br><br><br>
+            <br><br>
 
             <!-- About Bodyshape Detail Section -->
-            <div
-                class="w-[350px] lg:w-[531px] h-[400px] flex flex-col justify-center items-center bg-gradient-to-t from-black to-zinc-900 md:mx-auto lg:m-0">
-                <h1 class="text-6xl lg:text-7xl lg:font-semibold">Transform <br> Your Body</h1>
-                <br>
-                <p class="text-slate-400">We are dedicated to helping you transform your <br>
-                    body and mind through the power of fitness.</p>
-                <div class="lg:mt-16 mt-5">
-                    <button
-                        class="me-3 lg:mt-0 mt-3 w-[136px] h-[44px] bg-gradient-to-r from-[#F66844] to-[#FF921B]">Get
-                        Started</button>
-                    <button class="lg:mt-0 mt-3 w-[174px] h-[44px] border-2 border-orange-500">Watch Reviews</button>
+            <div class="flex justify-center lg:justify-start lg:flex md:flex-none">
+                <div
+                    class="w-[350px] lg:w-[531px] h-[400px] flex flex-col justify-center items-center bg-gradient-to-t from-black to-zinc-900 md:mx-auto lg:m-0">
+                    <h1 class="text-6xl lg:text-7xl lg:font-semibold">Transform <br> Your Body</h1>
+                    <br>
+                    <p class="text-slate-400">We are dedicated to helping you transform your <br>
+                        body and mind through the power of fitness.</p>
+                    <div class="lg:mt-16 mt-5">
+                        <button
+                            class="me-3 lg:mt-0 mt-3 w-[136px] h-[44px] bg-gradient-to-r from-[#F66844] to-[#FF921B]">Get
+                            Started</button>
+                        <button class="lg:mt-0 mt-3 w-[174px] h-[44px] border-2 border-orange-500">Watch
+                            Reviews</button>
+                    </div>
                 </div>
             </div>
 
@@ -336,7 +341,8 @@
 
                 <!-- Trainer 1 -->
                 <div class="overflow-hidden rounded-lg shadow-lg">
-                    <img src="../Images/trainer_01.png" alt="Trainer in pink outfit" class="w-full h-auto object-cover" />
+                    <img src="../Images/trainer_01.png" alt="Trainer in pink outfit"
+                        class="w-full h-auto object-cover" />
                 </div>
 
                 <!-- Trainer 2 -->
@@ -354,10 +360,110 @@
             </div>
         </section>
 
+        <section class="bg-black text-white py-12 px-4">
+
+            <h2 class="text-4xl font-bold mb-6">
+                Why Join With <span class="text-orange-500">Us?</span>
+            </h2>
+
+            <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+
+                <!-- Left: Benefit Box -->
+                <div class="bg-gradient-to-t from-black to-zinc-900 rounded-lg p-8">
+                    <div class="flex text-white mb-6">
+                        <span class="grid items-center me-3">
+                            <span class="h-[8px] w-[8px] bg-orange-500 rounded-xl text-orange-500"></span>
+                            <span class="h-[8px] w-[8px] bg-orange-500 rounded-xl text-orange-500"></span>
+                            <span class="h-[8px] w-[8px] bg-orange-500 rounded-xl text-orange-500"></span>
+                            <span class="h-[8px] w-[8px] bg-orange-500 rounded-xl text-orange-500"></span>
+                        </span>
+                        <span>
+                            <p>Best Gym</p>
+                            <p>Experts Coach</p>
+                            <p>Good Workout Facilities</p>
+                            <p>Consultation With Experts</p>
+                        </span>
+                    </div>
+                    <button class="bg-orange-500 text-white px-6 py-2 rounded hover:bg-orange-600 transition">
+                        See More Benefits
+                    </button>
+                </div>
+
+                <!-- Right: Gym Images -->
+                <div class="grid grid-flow-row gap-6">
+                    <img src="../Images/join_us_01.png" alt="Cable machine workout" />
+                    <img class="ms-24" src="../Images/join_us_02.png" alt="Cable exercise in gym" />
+                </div>
+
+            </div>
+        </section>
+
     </main>
 
-    <footer>
+    <!-- Foorer Section  -->
+    <footer class="bg-gradient-to-t from-black to-zinc-900 text-white pt-12 px-6">
+        <div class="lg:flex">
+            <div class="max-w-7xl mx-auto gird md:flex lg:gap-20 items-center justify-between">
 
+                <!-- Logo & Tagline -->
+                <div class="flex items-center pb-10">
+                    <img src="../Images/logo_left.png" alt="">
+                    <span class="text-orange-500">
+                        <h1 class="text-center text-4xl">Bodyshape</h1>
+                        <p>Unleash your inner athlete</p>
+                    </span>
+                    <img src="../Images/logo_right.png" alt="">
+                </div>
+
+                <!-- Company Links -->
+                <div class="pb-10">
+                    <h3 class="text-lg font-bold mb-4">Company</h3>
+                    <ul class="space-y-2 text-slate-300">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blogs</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Links -->
+                <div class="pb-10">
+                    <h3 class="text-lg font-bold mb-4">Contact</h3>
+                    <ul class="space-y-2 text-slate-300">
+                        <li><a href="#">Help | FAQ</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+
+                <!-- More Links -->
+                <div>
+                    <h3 class="text-lg font-bold mb-4">More</h3>
+                    <ul class="space-y-2 text-slate-300">
+                        <li><a href="#">Program</a></li>
+                        <li><a href="#">Plan</a></li>
+                        <li><a href="#">Method</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- Popular Tags -->
+            <div class="max-w-7xl mx-auto mt-10">
+                <h3 class="text-lg font-bold mb-4">Popular Tags</h3>
+                <div class="grid grid-cols-3 gap-4">
+                    <span class="px-4 py-1 bg-gray-800 text-sm text-white text-center">Abs</span>
+                    <span class="px-4 py-1 bg-gray-800 text-sm text-white text-center">Workout</span>
+                    <span class="px-4 py-1 bg-gray-800 text-sm text-white text-center">Nutrition</span>
+                    <span class="px-4 py-1 bg-gray-800 text-sm text-white text-center">Boxing</span>
+                    <span class="px-4 py-1 bg-gray-800 text-sm text-white text-center">Gym</span>
+                    <span class="px-4 py-1 bg-orange-500 text-sm text-black text-center">Facilities</span>
+                    <span class="px-4 py-1 bg-gray-800 text-sm text-white text-center">Plans</span>
+                    <span class="px-4 py-1 bg-gray-800 text-sm text-white text-center">Trainers</span>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright -->
+        <div class="bg-orange-500 text-center py-4 mt-10">
+            <p class="text-white text-sm">© 2023 All Rights Reserved</p>
+        </div>
     </footer>
 
 </body>
