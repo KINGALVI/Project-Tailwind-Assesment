@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 
@@ -41,7 +42,7 @@
         <section class="h-screen bg-[url('../Images/banner.png')] bg-cover bg-center">
             <br><br><br>
             <div
-                class="w-[350px] lg:w-[531px] h-[400px] flex flex-col justify-center items-center bg-gradient-to-t from-black to-zinc-900">
+                class="w-[350px] lg:w-[531px] h-[400px] flex flex-col justify-center items-center bg-gradient-to-t from-black to-zinc-900 md:mx-auto lg:m-0">
                 <h1 class="text-6xl lg:text-7xl lg:font-semibold">Transform <br> Your Body</h1>
                 <br>
                 <p class="text-slate-400">We are dedicated to helping you transform your <br>
@@ -55,10 +56,10 @@
             </div>
 
             <div
-                class="mt-24 relative flex items-center justify-around w-[245px] h-[60px] bg-gradient-to-r from-[#F66844] to-[#FF921B] text-white px-6 ">
-                <img src="/path/google.svg" alt="Google" class="h-8 w-8" />
-                <img src="/path/facebook.svg" alt="Facebook" class="h-8 w-8" />
-                <img src="/path/youtube.svg" alt="YouTube" class="h-8 w-8" />
+                class="mt-16 relative flex items-center justify-around w-[245px] h-[60px] bg-gradient-to-r from-[#F66844] to-[#FF921B] text-white px-6 ">
+                <i class="fab fa-google text-3xl"></i>
+                <i class="fab fa-facebook-f text-3xl"></i>
+                <i class="fab fa-youtube text-3xl"></i>
 
                 <div
                     class="absolute right-[-30px] top-[20px] transform translate-x-1 rotate-[300deg] w-[75px] h-[41px] bg-black">
@@ -67,16 +68,196 @@
 
         </section>
 
-        <section class="h-screen bg-[url('../Images/roated_banner.png')] bg-cover bg-center">
+        <section class="lg:h-screen bg-[url('../Images/roated_banner.png')] bg-cover bg-center">
+
             <h1 class="text-6xl">Fitness Plans & <span class="text-orange-500">Nutritions</span></h1>
-            <div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+
+
+            <!-- For Large Screen -->
+            <div class="hidden lg:block">
+                <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3">
+
+                    <div class="border-r-4 border-b-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/workout.png" alt="Weight Loss Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Weight Loss</h2>
+                        <p class="text-sm text-slate-300">
+                            Weight loss can have causes that aren't due to underlying disease. Examples include dieting,
+                            exercise, malnutrition or lack of access to food.
+                        </p>
+                    </div>
+
+                    <div class="border-b-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/yoga.png" alt="Classic Yoga Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Classic Yoga</h2>
+                        <p class="text-sm text-slate-300">
+                            The term "yoga" in the Western world often denotes a modern form of Hatha yoga and a
+                            posture-based physical fitness, stress-relief.
+                        </p>
+                    </div>
+
+                    <div class="border-b-4 border-l-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/bicycle.png" alt="Cycling Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Cycling</h2>
+                        <p class="text-sm text-slate-300">
+                            Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of
+                            cycles for transport, recreation, exercise or sport.
+                        </p>
+                    </div>
+
+                    <div class="border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/biceps.png" alt="Body Building Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Body Building</h2>
+                        <p class="text-sm text-slate-300">
+                            Bodybuilding is the use of progressive resistance exercise to control and develop one's
+                            muscles by muscle hypertrophy for aesthetic purposes.
+                        </p>
+                    </div>
+
+                    <div class="border-l-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/fitness.png" alt="Musculation Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Musculation</h2>
+                        <p class="text-sm text-slate-300">
+                            Weight training is a common type of strength training for developing the strength, size of
+                            skeletal muscles and maintenance of strength.
+                        </p>
+                    </div>
+
+                    <div class="border-l-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/runer-silhouette-running-fast.png" alt="Fitness Running Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Fitness Running</h2>
+                        <p class="text-sm text-slate-300">
+                            Running is a method of terrestrial locomotion allowing humans and other animals to move
+                            rapidly on foot.
+                        </p>
+                    </div>
+
+                </div>
             </div>
+
+
+            <!-- For medium screen -->
+            <div class="hidden md:block lg:hidden xl:hidden text-white py-10 px-4">
+                <div class="grid grid-cols-2">
+
+                    <div class="border-r-4 border-b-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/workout.png" alt="Weight Loss Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Weight Loss</h2>
+                        <p class="text-sm text-slate-300">
+                            Weight loss can have causes that aren't due to underlying disease. Examples include dieting,
+                            exercise, malnutrition or lack of access to food.
+                        </p>
+                    </div>
+
+                    <div class="border-b-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/yoga.png" alt="Classic Yoga Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Classic Yoga</h2>
+                        <p class="text-sm text-slate-300">
+                            The term "yoga" in the Western world often denotes a modern form of Hatha yoga and a
+                            posture-based physical fitness, stress-relief.
+                        </p>
+                    </div>
+
+                    <div class="border-b-4 border-r-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/bicycle.png" alt="Cycling Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Cycling</h2>
+                        <p class="text-sm text-slate-300">
+                            Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of
+                            cycles for transport, recreation, exercise or sport.
+                        </p>
+                    </div>
+
+                    <div class="border-b-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/biceps.png" alt="Body Building Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Body Building</h2>
+                        <p class="text-sm text-slate-300">
+                            Bodybuilding is the use of progressive resistance exercise to control and develop one's
+                            muscles by muscle hypertrophy for aesthetic purposes.
+                        </p>
+                    </div>
+
+                    <div class="border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/fitness.png" alt="Musculation Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Musculation</h2>
+                        <p class="text-sm text-slate-300">
+                            Weight training is a common type of strength training for developing the strength, size of
+                            skeletal muscles and maintenance of strength.
+                        </p>
+                    </div>
+
+                    <div class="border-l-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/runer-silhouette-running-fast.png" alt="Fitness Running Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Fitness Running</h2>
+                        <p class="text-sm text-slate-300">
+                            Running is a method of terrestrial locomotion allowing humans and other animals to move
+                            rapidly on foot.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- For small screen -->
+            <div class="block md:hidden  text-white py-10 px-4">
+                <div class="grid grid-cols-1">
+
+                    <div class="border-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/workout.png" alt="Weight Loss Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Weight Loss</h2>
+                        <p class="text-sm text-slate-300">
+                            Weight loss can have causes that aren't due to underlying disease. Examples include dieting,
+                            exercise, malnutrition or lack of access to food.
+                        </p>
+                    </div>
+
+                    <div class="border-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/yoga.png" alt="Classic Yoga Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Classic Yoga</h2>
+                        <p class="text-sm text-slate-300">
+                            The term "yoga" in the Western world often denotes a modern form of Hatha yoga and a
+                            posture-based physical fitness, stress-relief.
+                        </p>
+                    </div>
+
+                    <div class="border-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/bicycle.png" alt="Cycling Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Cycling</h2>
+                        <p class="text-sm text-slate-300">
+                            Cycling, also, when on a two-wheeled bicycle, called bicycling or biking, is the use of
+                            cycles for transport, recreation, exercise or sport.
+                        </p>
+                    </div>
+
+                    <div class="border-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/biceps.png" alt="Body Building Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Body Building</h2>
+                        <p class="text-sm text-slate-300">
+                            Bodybuilding is the use of progressive resistance exercise to control and develop one's
+                            muscles by muscle hypertrophy for aesthetic purposes.
+                        </p>
+                    </div>
+
+                    <div class="border-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/fitness.png" alt="Musculation Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Musculation</h2>
+                        <p class="text-sm text-slate-300">
+                            Weight training is a common type of strength training for developing the strength, size of
+                            skeletal muscles and maintenance of strength.
+                        </p>
+                    </div>
+
+                    <div class="border-4 border-orange-500 p-4 flex flex-col items-center text-center">
+                        <img src="../Images/runer-silhouette-running-fast.png" alt="Fitness Running Icon" class="h-12 mb-4" />
+                        <h2 class="text-xl font-bold mb-2">Fitness Running</h2>
+                        <p class="text-sm text-slate-300">
+                            Running is a method of terrestrial locomotion allowing humans and other animals to move
+                            rapidly on foot.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
         </section>
 
     </main>
